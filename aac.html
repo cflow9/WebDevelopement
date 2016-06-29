@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>American Athletic</title>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+    <script src = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"> </script>
+    <style>
+        #banner {
+           /* background-color: navy;
+            text-shadow: 0 0 3px #d7d7d7;
+            font-stretch: expanded;*/
+			 background-color: #800000;
+			text-shadow: 0 0 3px #FF0000;
+			text-align: center;
+			border-style: outset;
+			border-color: #4d0000;
+			border-width: 10px;
+        }
+
+        body{
+            background-color: navy;
+			color: white;
+			height: auto;
+			font-size: 1.5em;
+        }
+
+        /*img {
+            width: 500px;
+            height: 240px;
+            padding-left: 10px;
+            padding-right: 10px;
+			border:5px groove navy;
+        }*/
+div.img {
+    margin: 5px;
+   // border: 10px groove navy;
+    float: center;
+    width: 300px;
+}
+div.img2 {
+    margin: 5px;
+    //border: 10px groove navy;
+    float: center;
+    width: 700px;
+}
+div.img3 {
+    margin: 5px;
+  //  border: 10px groove navy;
+    float: center;
+    width: 800px;
+}
+div.img:hover {
+    border: 10px solid white;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+		
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {height: 450px}
+
+        /* Set Blue background color and 100% height */
+        .sidenav{
+            padding-top: 20px;
+			background-color: maroon;
+            color: navy;
+            height: 397%;
+			disply:inline-block;
+			text-decoration:background;
+		}
+		a:link,a:visited{
+            padding-top: 20px;
+			//background-color: white;
+            color: black;
+            height: 270%;
+			disply:inline-block;
+			text-decoration:none;
+		}
+		
+		a:hover,a:active{
+		background-color:white;
+		color:black;
+		text-decoration:background;}
+
+        /* Set black background color, white text and some padding */
+        footer {
+           // background-color: #555;
+            color:white ;
+            //padding: 15px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+				background:blue;
+            }
+            .row.content {height:auto;}
+        
+    </style>
+</head>
+<body>
+
+<link href="bootstrap-hover_.css" rel="stylesheet">
+<div class="navbar-wrapper">
+   <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+           <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#CK2">KCK</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#Group of 5" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Group of 5<span class="caret"></span></a>
+                            <ul class="dropdown-menu sub-menu">
+                                <li><a href="file:///C:/Users/Christopher/BitTorrent%20Sync/web%20development/Chris/aac.html">AAC</a></li>
+                                <li><a href="#C-USA">C-USA</a></li>
+                                <li><a href="#MAC">MAC</a></li>
+                                <li><a href="#MntWest">Mountain West</a></li>
+                                <li><a href="file:///C:/Users/Christopher/BitTorrent%20Sync/web%20development/Chris/SB.html">Sun Belt</a></li>
+                            </ul>
+                        <li class="dropdown">
+                            <a href="#P5" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Power 5<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#ACC">ACC</a></li>
+                                <li><a href="#B1G">B1G</a></li>
+                                <li><a href="#Big12">Big 12</a></li>
+                                <li><a href="#Pac-12">Pac-12</a></li>
+                                <li><a href="#SEC">SEC</a></li>
+                            </ul>
+                        <li class="dropdown">
+                            <a href="#Troy" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Troy<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="file:///C:/Users/Christopher/BitTorrent%20Sync/web%20development/Chris/Troy_Ftball.html">Football</a></li>
+                                <li><a href="file:///C:Users/Christopher/BitTorrent%20Sync/web%20development/Kyle/DummyPage/Basketball.html">Basketball</a></li>
+                                <li><a href="file:///C:/Users/Christopher/BitTorrent%20Sync/web%20development/Chris/Troy_Bball.html">Baseball</a></li>
+                                <li><a href="file:///C:/Users/Christopher/BitTorrent%20Sync/web%20development/Kyle/DummyPage/Softball.html">Softball</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+</div>
+<div class = "container-fluid text-center">
+    <div class = "row content">
+        <div class = "col-sm-2 sidenav">
+
+		<pre>   
+	<p> <a href = "http://www.ucfathletics.com">UCF</a></p>
+			
+    <p> <a href = "http://www.gobearcats.com"> Cincinnati</a></p>
+			
+    <p> <a href = "http://www.uconnhuskies.com"> UConn</a></p>
+			
+	<p> <a href = "http://www.ecupirates.com"> ECU</a></p>
+			
+	<p> <a href = "http://www.uhcoguars.com"> Houston</a></p>
+			
+	<p> <a href = "http://www.gotigersgo.com"> Memphis </a></p>
+	</pre>
+			<div class="img5">
+  <a target="_blank" href="AAC.jpg">
+    <img src="AAC.jpg" alt="schools" width="200" height="200">
+  </a>
+  
+</div>
+		</div>
+		
+
+
+<div class = "col-sm-8 text-left" id = "body">
+            <h1> Welcome </h1>
+            <p> Get access to all of your AAC news and highlights here!</p>
+			<div class="img2">
+		<a target="_blank" href="AAClogos.png">
+    <img src="AAClogos.png" alt="TWR" width="600" height="200">
+  </a>
+  <div class="desc"></div>
+</div>
+<div class="img3">
+  <a target="_blank" href="SBsched.jpg">
+    <img src="aac-conference.jpg" alt="schools" width="750" height="300">
+  </a>
+  <div class="desc"></div>
+</div>
+
+
+           <!--  <img src = "togetherwerise.jpg" alt = "TWR" >
+       
+		   <img src = "Sunbelt_schools.jpg" alt = "schools">
+		   
+			<img src = "twr.jpg" alt = "Troy 2 GS 1">
+<img src = "Au3_Troy4.jpg" alt = "AU 3 Troy 4"> -->
+
+            <h3> News </h3>
+            <p> "Together We Rise"... </p>
+            <p> <mark> Schedule Release 2016 </mark><a href="http://www.orlandosentinel.com/sports/college/college-gridiron-365/os-american-athletic-conference-debuts-2016-football-schedule-20160209-story.html" Style = "color:white"> Football Schedule Whole Conference</a> The schedule for the 2016 .......................</p>
+		    <p> <mark> 2015 Season Report</mark><a href="http://theamerican.org/documents/2015/8/27/FB_2015_release_1a.pdf" style = "color:white"> Football Season Report</a> Complete guide to the 2015 football season</p>	
+            <p> <mark> Update (12/31/2015): </mark> The 2015 football season was a great one for the American Athletic Conference. Seeing multiple teams upset teams from the Power 5 conferences. Ending with AAC Champ University of Houston Cougars beating the Florida State University Seminoles in one of the New Years 6 bowls, The Chick-Fil-A Peach Bowl.<a href="http://theamerican.org/news/2015/12/31/FB_1231150640.aspx?path=football" style = "color:white"> Read Full Story</a></p>
+<h3> Upcoming Games </h3>
+<hr>
+<input type="button" style ="color: red" value="Generate Table" onclick= "GenerateTable()" />
+<hr />
+<div id="dvTable">
+</div>
+<script type="text/javascript">
+function GenerateTable() {
+    //Build an array containing Customer records.
+    var schools = new Array();
+    schools.push(["School", "Date", "Time | Location"]);
+    schools.push(["SMU", "Saturday, April 16", " 2 p.m. EST| Dallas, Tx"]);
+    schools.push(["Houston", "Saturday, April 16", " 3 p.m. EST| Houston, Tx"]);
+	schools.push(["UConn", "Saturday, April 16", " 3 p.m. EST| Storrs, Ct"]);
+	schools.push(["USF", "Saturday, April 16", " 4 p.m. EST| Tampa, Fl"])
+	schools.push(["UCF", "Saturday, April 16", " 7 p.m. EST| Orlando, Fl"])
+	schools.push(["Memphis", "Friday, April 22", " 8 p.m. EST| Memphis, Tn"])
+	
+    //Create a HTML Table element.
+    var table = document.createElement("TABLE");
+    table.border = "1";
+ 
+    //Get the count of columns.
+    var columnCount = schools[0].length;
+ 
+    //Add the header row.
+    var row = table.insertRow(-1);
+    for (var i = 0; i < columnCount; i++) {
+        var headerCell = document.createElement("TH");
+        headerCell.innerHTML = schools[0][i];
+        row.appendChild(headerCell);
+    }
+ 
+    //Add the data rows.
+    for (var i = 1; i < schools.length; i++) {
+        row = table.insertRow(-1);
+        for (var j = 0; j < columnCount; j++) {
+            var cell = row.insertCell(-1);
+            cell.innerHTML = schools[i][j];
+        }
+    }
+ 
+    var dvTable = document.getElementById("dvTable");
+    dvTable.innerHTML = "";
+    dvTable.appendChild(table);
+}
+</script>
+
+        </div>
+
+    <div class = "container-fluid text-center">
+    <div class = "row content">
+    <div class = "col-sm-2 sidenav">
+      
+<pre>
+<p><a href="http://www.navysports.com">Navy</a></p>
+
+ <p><a href="http://www.gousfbulls.com">South Florida</a></p> 
+ 
+ <p><a href="http://www.smumustangs.com">SMU</a></p>
+ 
+ <p><a href="http://www.tulanegreenwave.com">Tulane</a></p>
+ 
+ <p><a href="http://www.tulsahurricanes.com">Tulsa</a></p>
+ 
+ <p><a href="http://www.owlsports.com">Temple</a></p>
+ 
+ </pre>
+ <div class="img4">
+	<a target="_blank" href="UHchamps.jpe">
+   <img src="UHchamps.jpe" alt="TWR" width="200" height="200">
+  </a>
+</div>
+</div>
+</div>
+</div>
+
+   <!-- <div class = "row">
+        <div class = "col-sm-4"> </div>
+        <div class = "col-sm-4"> </div>
+        <div class = "col-sm-4"> </div>
+        <div class = "col-sm-4"> </div>
+    </div>-->
+
+    
+
+
+
+</body>
+</html>
+
+

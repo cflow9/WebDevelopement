@@ -1,0 +1,29 @@
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {height: 450px}
+
+        /* Set Blue background color and 100% height */
+        .sidenav{
+            padding-top: 20px;
+			background-color: #ffcc00;
+            color: black;
+            height: 397%;
+			disply:inline-block;
+			//<text-decoration:background;
+		}
+	a:link,a:visited,.sidenav
+	{
+            //padding-top: 20px;
+			//background-color: white;
+            color: black;
+            height: 270%;
+			disply:inline-block;
+			text-decoration:none;
+		}
+		
+		a:hover,a:active,.sidenav
+		{
+		//background-color:white;
+		color:black;
+		//text-decoration:background;
+		} 
+		 
